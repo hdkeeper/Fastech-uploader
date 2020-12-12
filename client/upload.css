@@ -1,0 +1,39 @@
+.upload-field {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.upload-field .file-box {
+    flex: 1;
+    margin-left: 4px;
+}
+
+.upload-field .attach-button {
+    width: 30px;
+    height: 100%;
+    min-height: 30px;
+    cursor: pointer;
+    background: url(paperclip.svg);
+    background-size: cover;
+}
+
+.upload-field .file {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+.upload-field .file .delete-icon {
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.upload-field input {
+    width: 0;
+    height: 0;
+}

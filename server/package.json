@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Netris test task, server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "mon": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
+  }
+}

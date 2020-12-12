@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Netris, загрузка файлов</title>
+        <link href="upload.css" rel="stylesheet" />
+        <script type="text/javascript" src="upload.js"></script>
+        
+        <link href="app.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Netris, загрузка файлов</h1>
+
+        <h2>Один файл</h2>
+        <div id="upload-field"></div>
+
+        <h2>Несколько файлов</h2>
+        <div id="upload-field-many"></div>
+
+        <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+            new UploadField('#upload-field', 'upload-one');
+            new UploadField('#upload-field-many', 'upload-many', true);
+        });
+        </script>
+    </body>
+</html>
