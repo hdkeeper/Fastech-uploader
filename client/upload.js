@@ -97,7 +97,6 @@ class UploadField {
     onAttachButtonClick = () => {
         this.inputFileElement.click();
     };
-
     
     onDeleteClick = async id => {
         await this.deleteFile(id);
