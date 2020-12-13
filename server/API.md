@@ -20,7 +20,7 @@
 
 Скачать файл **{id}**.
 
-Формат ответа: application/octet-stream.
+Формат ответа: бинарные данные.
 
 
 ## DELETE /api/files/{field}/{id}
